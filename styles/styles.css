@@ -169,6 +169,7 @@ body {
     background-size: 100% auto;
     background-repeat: no-repeat;
     color:#ffffff;
+    background-color:cornflowerblue;
     text-align: center;
 }
 .page-newsletter-title {
@@ -193,6 +194,7 @@ body {
     line-height: 26px;
     text-transform: uppercase;
     background-color: #83B3D3;
+    color: #ffffff;
 }
 .contacts-phone {
     font-weight: 400;
@@ -202,5 +204,74 @@ body {
     text-transform: uppercase;
     color: #000000;
     text-decoration: none;
+}
+.inner-header {
+    background-image: url(../images/catalog-background.jpg);
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    color:#ffffff;
+    background-color:cornflowerblue;
+}
+.inner-header-title {
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 78px;
+}
+.breadcrumbs {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+}
+.catalog-filter-title {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+}
+.catalog-filter-item {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+}
+.range-cost {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+}
+.button-apply {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 21px;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: #83B3D3;
+}
+.button-reset {
+    text-align: center;
+}
+.search-list-title {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 39px;
+    text-transform: uppercase;
+}
+.select-control {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    color: #333333;
+}
+.hotel-card-list {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+}
+
+
+
+
+
+.newsletter-catalog {
+    color:#000000;
+    text-align: center;
 }
 

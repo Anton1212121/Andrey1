@@ -265,11 +265,71 @@ body {
     font-size: 18px;
     line-height: 23px;
 }
-
-
-
-
-
+.hotel-card-title {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 31px;
+}
+.hotel-card-button-more {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 21px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #ffffff;
+    background-color: #756257;
+    text-decoration: none;
+}
+.hotel-card-button-favorites {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 21px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #ffffff;
+    background-color: #83B3D3;
+}
+.hotel-card-rating {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.button-pagination-show {
+    text-align: center;
+}
+.button-pagination-show-more {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 26px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #ffffff;
+    background-color: #83B3D3;
+}
+.pagination-item {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 26px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.pagination-link-pagination-current {
+    color: #000000;
+    background-color: #F2F2F2;
+    text-decoration: none;
+}
+.pagination-link {
+    color: #ffffff;
+    background-color: #83B3D3;
+    text-decoration: none;
+}
+.number-of-hotel {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+}
 .newsletter-catalog {
     color:#000000;
     text-align: center;

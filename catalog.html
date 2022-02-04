@@ -162,7 +162,7 @@
             <ul class="hotel-card-list">
                 <li class="hotel-card">
                         <p class="hotel-card">
-                            <img class="hotel-card-image" src="images/hotel-amara-resort.jpg" width="299" height="220" alt="Отель Amara Resort & SPA"/>
+                            <img class="hotel-card-image" src="images/hotel-amara-resort.jpg" width="300" height="206" alt="Отель Amara Resort & SPA"/>
                             <h3 class="hotel-card-title">
                                 Amara Resort & SPA
                             </h3>
@@ -173,10 +173,10 @@
                         <b class="hotel-card-price">
                             От 4000 ₽
                         </b>
-                        <a class="hotel-card-button button" href="hotel-amara-rasort.html">
+                        <a class="hotel-card-button-more" href="hotel-amara-rasort.html">
                             Подробнее
                         </a>
-                        <button class="hotel-card-button button" type="submit" >
+                        <button class="hotel-card-button-favorites" type="button" >
                             В избранное
                         </button>
                         <img class="hotel-card-star" src="" alt=""/>
@@ -189,7 +189,7 @@
                 </li>
                 <li class="hotel-card">
                         <p class="hotel-card">
-                            <img class="hotel-card-image" src="images/hotel-desert-quail-inn.jpg" width="309" height="220" alt="Отель Desert Quail Inn"/>
+                            <img class="hotel-card-image" src="images/hotel-desert-quail-inn.jpg" width="300" height="206" alt="Отель Desert Quail Inn"/>
                             <h3 class="hotel-card-title">
                                 Desert Quail Inn
                             </h3>
@@ -200,10 +200,10 @@
                         <b class="hotel-card-price">
                             От 3000 ₽
                         </b>
-                        <a class="hotel-card-button button" href="hotel-desert-quail-inn.html">
+                        <a class="hotel-card-button-more" href="hotel-desert-quail-inn.html">
                             Подробнее
                         </a>
-                        <button class="hotel-card-button button" type="submit" >
+                        <button class="hotel-card-button-favorites" type="button" >
                             В избранное
                         </button>
                         <img class="hotel-card-star" src="" alt=""/>
@@ -215,7 +215,7 @@
                 </li>
                 <li class="hotel-card">
                         <p class="hotel-card">
-                            <img class="hotel-card-image" src="images/hotel-villas-poco-diablo.jpg" width="308" height="220" alt="Отель Villas at Poco Diablo"/>
+                            <img class="hotel-card-image" src="images/hotel-villas-poco-diablo.jpg" width="300" height="206" alt="Отель Villas at Poco Diablo"/>
                             <h3 class="hotel-card-title">
                                 Villas at Poco Diablo
                             </h3>
@@ -226,10 +226,10 @@
                         <b class="hotel-card-price">
                             От 2000 ₽
                         </b>
-                        <a class="hotel-card-button button" href="hotel-villas-poco-diablo.html">
+                        <a class="hotel-card-button-more" href="hotel-villas-poco-diablo.html">
                             Подробнее
                         </a>
-                        <button class="hotel-card-button button" type="submit" >
+                        <button class="hotel-card-button-favorites" type="button" >
                             В избранное
                         </button>
                         <img class="hotel-card-star" src="" alt=""/>
@@ -240,7 +240,7 @@
                 </li>
                 <li class="hotel-card">
                         <p class="hotel-card">
-                            <img class="hotel-card-image" src="images/hotel-greentree-inn.jpg" width="299" height="220" alt="Отель GreenTree Inn"/>
+                            <img class="hotel-card-image" src="images/hotel-greentree-inn.jpg" width="300" height="206" alt="Отель GreenTree Inn"/>
                             <h3 class="hotel-card-title">
                                 GreenTree Inn
                             </h3>
@@ -251,10 +251,10 @@
                         <b class="hotel-card-price">
                             От 3000 ₽
                         </b>
-                        <a class="hotel-card-button button" href="hotel-greentree-inn.html">
+                        <a class="hotel-card-button-more" href="hotel-greentree-inn.html">
                             Подробнее
                         </a>
-                        <button class="hotel-card-button button" type="submit" >
+                        <button class="hotel-card-button-favorites" type="button" >
                             В избранное
                         </button>
                         <img class="hotel-card-star" src="" alt=""/>
@@ -264,12 +264,14 @@
                         </b>
                 </li>
             </ul>
-            <button class="button pagination-show-more" type="button">
-                Загрузить ещё
-            </button>
+            <div class="button-pagination-show">
+                <button class="button-pagination-show-more" type="button">
+                    Загрузить ещё
+                </button>
+            </div>
             <ol class="pagination">
                 <li class=pagination-item>
-                    <a class="pagination-link pagination-current">1</a>
+                    <a class="pagination-link-pagination-current">1</a>
                 </li>
                 <li class=pagination-item>
                     <a class="pagination-link" href="#">2</a>
@@ -305,10 +307,10 @@
                     Только полезная информация и никакого спама, честное бойскаутское!
                 </p>
                 <form class="newsletter-form" action="https://echo.htmlacademy.ru/" method="post">
-                    <label class="visually-hidden">
+                    <label class="visually-hidden" for="newsletter-email">
                         Ваш e-mail
                     </label>
-                    <input class="field-newletter" type="email" id="newsletter-email" name="newsletter-email" placeholder="Ваш e-mail">
+                    <input class="field-newsletter" type="email" id="newsletter-email" name="newsletter-email" placeholder="Ваш e-mail">
                     <button class="button newsletter-button" type="submit">
                         <span class="button-newsletter">
                             ПОДПИСАТЬСЯ

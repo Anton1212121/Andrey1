@@ -66,6 +66,7 @@ body {
     background-image: url(../images/index-background.jpg);
     background-size: 100% auto;
     background-repeat: no-repeat;
+    text-align: center;
 }
 .introduce-tagline {
     font-weight: 700;
@@ -141,5 +142,65 @@ body {
     text-align: center;
 }
 .interest {
-
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    text-align: center;
+    text-transform: uppercase;
 }
+.interest-discription {
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 26px;
+    text-align: center;
+}
+.button-search {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 36px;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: #756257;
+    color: #ffffff;
+    text-decoration: none;
+}
+.newsletter {
+    background-image: url(../images/index-background-down.jpg);
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    color:#ffffff;
+    text-align: center;
+}
+.page-newsletter-title {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    text-transform: uppercase;
+}
+.newsletter-discription {
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 26px;
+}
+.field-newletter {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+}
+.button-newsletter {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 26px;
+    text-transform: uppercase;
+    background-color: #83B3D3;
+}
+.contacts-phone {
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 40px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #000000;
+    text-decoration: none;
+}
+

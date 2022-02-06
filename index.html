@@ -55,7 +55,7 @@
             </ul>
         </nav>
     </header>
-    <main class="main-index">
+    <main class="main-container main-index">
         <section class="introduce">
             <h1 class="visually-hidden">
                 Добро пожаловать в Великолепную Седону
@@ -74,18 +74,24 @@
             <ul class='adventages-list'>
                 <li class='adventages-item'>
                     <div class="advantages-card">
-                        <h3 class="advantages-title-1-2">
-                            Настоящий городок
-                        </h3>
-                            <p class="adventages-discription-number-1-2">
-                                — №1 —
-                            </p>
-                            <p class="adventages-discription-1-2">
-                                Седона — не аттракцион для туристов, там течёт своя жизнь
-                            </p>
-                            <img class="real-city-photo" src="images/advantage-1.jpg" width="800" height="384" alt="Фотография города Седона"/>
-                                <ul class="real-city-adventure-list">
-                                    <li class=real-city-adventure-item>
+                        <div class="advantage-first-wrapper">
+                            <div class="advantave-first-card">
+                                <h3 class="advantages-title-1-2">
+                                    Настоящий городок
+                                </h3>
+                                    <p class="adventages-discription-number-1-2">
+                                        — №1 —
+                                    </p>
+                                    <p class="adventages-discription-1-2">
+                                        Седона — не аттракцион для туристов, там течёт своя жизнь
+                                    </p>
+                            </div>
+                            <div class="advantave-first-card">
+                                    <img class="real-city-photo" src="images/advantage-1.jpg" width="800" height="384" alt="Фотография города Седона"/>
+                            </div>
+                        </div>       
+                            <ul class="real-city-adventure-list">
+                                    <li class="real-city-adventure-item-13">
                                         <p class="real-city-adventure-item-title">
                                         Жильё
                                         </p>
@@ -93,7 +99,7 @@
                                             Рекомендуем пожить в настоящем мотеле, всё как в кино!
                                         </p>
                                     </li>
-                                    <li class=real-city-adventure-item>
+                                    <li class="real-city-adventure-item-2">
                                         <p class="real-city-adventure-item-title">
                                         Еда
                                         </p>
@@ -101,7 +107,7 @@
                                             Всегда заказывайте топовый фирменный бургер, вы не разочаруетесь!
                                         </p>
                                     </li>
-                                    <li class=real-city-adventure-item>
+                                    <li class="real-city-adventure-item-13">
                                         <p class="real-city-adventure-item-title">
                                         Сувениры
                                         </p>
@@ -114,19 +120,26 @@
                 </li>
                 <li class='adventages-item'>
                     <div class="advantages-card">
-                        <img class="real-rock-photo" src="images/advantage-2.jpg" width="800" height="384" alt="Фотография скал Седоны"/>
-                            <h3 class="advantages-title-1-2">
-                                Там есть мост дьявола
-                            </h3>
-                            <p class="adventages-discription-number-1-2">
-                                — №2 —
-                            </p>
-                            <p class="adventages-discription-1-2">
-                                Да, по нему можно пройти! Если вы осмелитесь, разумеется
-                            </p>
+                        <div class="advantage-second-wrapper">
+                            <div class="advantave-second-card">
+                                <img class="real-rock-photo" src="images/advantage-2.jpg" width="800" height="384" alt="Фотография скал Седоны"/>
+                            </div>
+                            <div class="advantave-second-card">
+                                <h3 class="advantages-title-1-2">
+                                    Там есть мост дьявола
+                                </h3>
+                                <p class="adventages-discription-number-1-2">
+                                    — №2 —
+                                </p>
+                                <p class="adventages-discription-1-2">
+                                    Да, по нему можно пройти! Если вы осмелитесь, разумеется
+                                </p>
+                            </div>
+                        </div>
                     </div>
                 </li>
-                <li class='adventages-item'>
+                <div class="advantages-item-345">
+                <li class="advantages-item-35">
                     <div class="advantages-card">
                         <h3 class="advantages-title">
                             Небольшая площадь
@@ -139,7 +152,7 @@
                         </p>
                     </div>
                 </li>
-                <li class="advantages-item">
+                <li class="advantages-item-4">
                     <div class="advantages-card">
                         <h3 class="advantages-title">
                             Красивая дорога
@@ -152,7 +165,7 @@
                         </p>
                     </div>
                 </li>
-                <li class='advantages-item'>
+                <li class="advantages-item-35">
                     <div class="advantages-card">
                         <h3 class="advantages-title">
                             Мало туристов
@@ -165,9 +178,11 @@
                         </p>
                     </div>
                 </li>
+                </div>
+            </div>
             </ul>
         </section>
-        <div class="find-hotel">
+        <div class="find-hotel-wrapper">
             <h2 class="visually-hidden">Поиск гостиницы</h2>
             <p class="interest">
                 Заинтересовались?
@@ -175,34 +190,38 @@
             <p class="interest-discription">
                 Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в Седоне
             </p>
-            <p class="button-search">
-                <a class="button-search" href="catalog.html">
-                    ПОИСК ГОСТИНИЦЫ В СЕДОНЕ
-                </a>
-            </p>
+                <p class="button-search-inscription">
+                    <a class="button-search" href="catalog.html">
+                        ПОИСК ГОСТИНИЦЫ В СЕДОНЕ
+                    </a>
+                </p>
         </div>
         <section class="newsletter">
-            <h2 class="page-newsletter-title">
-                Подпишитесь на рассылку
-            </h2>
-                <p class="newsletter-discription">
-                    Только полезная информация и никакого спама, честное бойскаутское!
-                </p>
-                <form class="newsletter-form" action="https://echo.htmlacademy.ru/" method="post">
-                    <label class="visually-hidden" for="newsletter-email">
-                        Ваш e-mail
-                    </label>
-                    <input class="field-newsletter" type="email" id="newsletter-email" name="newsletter-email" placeholder="Ваш e-mail">
-                    <button class="button newsletter-button" type="submit">
-                        <span class="button-newsletter">
-                            ПОДПИСАТЬСЯ
-                        </span>
-                    </button>
-                </form>
+            <div class="newsletter-wrapper">
+                <h2 class="page-newsletter-title">
+                    Подпишитесь на рассылку
+                </h2>
+                    <p class="newsletter-discription">
+                        Только полезная информация и никакого спама, честное бойскаутское!
+                    </p>
+                    <form class="newsletter-form" action="https://echo.htmlacademy.ru/" method="post">
+                        <div class="newsletter-form-wrapper">
+                        <label class="visually-hidden" for="newsletter-email">
+                            Ваш e-mail
+                        </label>
+                            <input class="field-newsletter" type="email" id="newsletter-email" name="newsletter-email" placeholder="Ваш e-mail">
+                            <button class="button newsletter-button" type="submit">
+                                <b class="button-newsletter">
+                                    ПОДПИСАТЬСЯ
+                                </b>
+                            </button>
+                        </div>
+                    </form>
+            </div>
         </section>
     </main>
     <footer class="page-footer">
-            <ul class="footer-social-list">
+        <ul class="footer-social-list">
                 <li class="footer-social-item">
                     <a class="button" href="#">
                         <span class="visually-hidden">
@@ -224,16 +243,16 @@
                         </span>
                     </a>
                 </li>
-            </ul>
-            <p class ="contacts-phone">
+        </ul>
+        <p class ="contacts-phone">
                 <a class="contacts-phone" href="tel:+781281212">
                     +7 (812) 812-12-12
                 </a>
-            </p>
-            <p class="visually-hidden">
+        </p>
+        <p class="visually-hidden">
                 Разаработано в HTML Academy
                 <img class="about-img" src="images/logo-htmlacademy.svg" width="115" height="33" alt=".html academy"/>
-            </p>
+        </p>
     </footer>
 </body>
 </html>

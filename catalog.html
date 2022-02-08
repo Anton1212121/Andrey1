@@ -60,6 +60,7 @@
             <h1 class="inner-header-title">
                 Гостиницы Седоны
             </h1>
+                <div class="breadcrumbs-wrapper">
                 <ul class="breadcrumbs">
                     <li class="breadcrumbs-item">
                         <a class="breadcrumbs-link" href="index.html">
@@ -74,7 +75,8 @@
                         <h2 class="visually-hidden">
                             Опции выбора гостиницы
                         </h2>
-                            <form class="catalog-filter" action="https://echo.htmlacademy.ru/" method="get">
+                </div>
+                            <form class="catalog-filter-form" action="https://echo.htmlacademy.ru/" method="get">
                                 <fieldset class="catalog-filter-group">
                                     <legend class="catalog-filter-title">
                                         Инфраструктура
@@ -135,33 +137,37 @@
                                             <input type="range" min="0" max="9000" id="cost">
                                         </label>
                                 </fieldset>
-                                <button class="button-apply" type="submit" >
-                                    Применить
-                                </button>
-                                <button class="button-reset" type="reset">
-                                    Сбросить
-                                </button>
+                                <div class="buttons-wrapper">
+                                    <button class="button-apply" type="submit" >
+                                        Применить
+                                    </button>
+                                    <button class="button-reset" type="reset">
+                                        Сбросить
+                                    </button>
+                                </div>
                             </form>
                     </section>
         </header>
         <section class="search-list">
-                    <h2 class="search-list-title">
-                        Найдено гостиниц: 38
-                    </h2>
-                    <select class="select-control" aria-label="Сортировка">
-                        <option value="cheap">Сначала дешёвые</option>
-                        <option value="expensive">Сначала дорогие</option>
-                        <option value="popular">Сначала популярные</option>
-                    </select>
-                    <a href="#" class="button button-light">
-                        <span class="visually-hidden">Показать карточки</span></a>
-                    <a href="#" class="button button-light">
-                        <span class="visually-hidden">Показать подробно</span></a>
-                    <a href="#" class="button button-light">
-                        <span class="visually-hidden">Показать списком</span></a>
+                    <div class="search-list-options-wrapper">
+                        <h2 class="search-list-title">
+                            Найдено гостиниц: 38
+                        </h2>
+                        <select class="select-control" aria-label="Сортировка">
+                            <option value="cheap">Сначала дешёвые</option>
+                            <option value="expensive">Сначала дорогие</option>
+                            <option value="popular">Сначала популярные</option>
+                        </select>
+                        <a href="#" class="button button-light">
+                            <span class="visually-hidden">Показать карточки</span></a>
+                        <a href="#" class="button button-light">
+                            <span class="visually-hidden">Показать подробно</span></a>
+                        <a href="#" class="button button-light">
+                            <span class="visually-hidden">Показать списком</span></a>
+                    </div>
             <ul class="hotel-card-list">
                 <li class="hotel-card">
-                        <p class="hotel-card">
+                        <p class="hotel-card-preview">
                             <img class="hotel-card-image" src="images/hotel-amara-resort.jpg" width="300" height="206" alt="Отель Amara Resort & SPA"/>
                             <h3 class="hotel-card-title">
                                 Amara Resort & SPA
@@ -299,60 +305,64 @@
                 <option value="6">6</option>
             </select>
         </section>
-        <section class="newsletter-catalog">
-            <h2 class="page-newsletter-title">
-                Подпишитесь на рассылку
-            </h2>
-                <p class="newsletter-discription">
-                    Только полезная информация и никакого спама, честное бойскаутское!
-                </p>
-                <form class="newsletter-form" action="https://echo.htmlacademy.ru/" method="post">
-                    <label class="visually-hidden" for="newsletter-email">
-                        Ваш e-mail
-                    </label>
-                    <input class="field-newsletter" type="email" id="newsletter-email" name="newsletter-email" placeholder="Ваш e-mail">
-                    <button class="button newsletter-button" type="submit">
-                        <span class="button-newsletter">
-                            ПОДПИСАТЬСЯ
-                        </span>
-                    </button>
-                </form>
-        </section> 
+        <section class="newsletter">
+            <div class="newsletter-wrapper">
+                <h2 class="page-newsletter-title">
+                    Подпишитесь на рассылку
+                </h2>
+                    <p class="newsletter-discription">
+                        Только полезная информация и никакого спама, честное бойскаутское!
+                    </p>
+                    <form class="newsletter-form" action="https://echo.htmlacademy.ru/" method="post">
+                        
+                        <label class="visually-hidden" for="newsletter-email">
+                            Ваш e-mail
+                        </label>
+                            <div class="newsletter-form-wrapper">
+                            <input class="field-newsletter" type="email" id="newsletter-email" name="newsletter-email" placeholder="Ваш e-mail">
+                            <button class="button newsletter-button" type="submit">
+                                <b class="button-newsletter">
+                                    ПОДПИСАТЬСЯ
+                                </b>
+                            </button>
+                            </div>   
+                    </form>
+            </div>
+        </section>
     </main>
     <footer class="page-footer">
         <ul class="footer-social-list">
-            <li class="footer-social-item">
-                <a class="button" href="#">
-                    <span class="visually-hidden">
-                        Twitter
-                    </span>
-                </a>
-            </li>
-            <li class="footer-social-item">
-                <a class="button" href="#">
-                    <span class="visually-hidden">
-                        Facebook
-                    </span>
-                </a>
-            </li>
-            <li class="footer-social-item">
-                <a class="button" href="#">
-                    <span class="visually-hidden">
-                        Youtube
-                    </span>
-                </a>
-            </li>
+                <li class="footer-social-item">
+                    <a class="button" href="#">
+                        <span class="visually-hidden">
+                            Twitter
+                        </span>
+                    </a>
+                </li>
+                <li class="footer-social-item">
+                    <a class="button" href="#">
+                        <span class="visually-hidden">
+                            Facebook
+                        </span>
+                    </a>
+                </li>
+                <li class="footer-social-item">
+                    <a class="button" href="#">
+                        <span class="visually-hidden">
+                            Youtube
+                        </span>
+                    </a>
+                </li>
         </ul>
-
         <p class ="contacts-phone">
-            <a class="contacts-phone" href="tel:+781281212">
-                +7 (812) 812-12-12
-            </a>
+                <a class="contacts-phone-link" href="tel:+781281212">
+                    +7 (812) 812-12-12
+                </a>
         </p>
         <p class="visually-hidden">
-            Разаработано в HTML Academy
-            <img class="about-img" src="images/logo-htmlacademy.svg" width="115" height="33" alt=".html academy"/>
+                Разаработано в HTML Academy
         </p>
+            <img class="about-img" src="images/logo-htmlacademy.svg" width="115" height="33" alt=".html academy"/>
     </footer>
 </body>
 </html>

@@ -47,8 +47,8 @@
                 </li>
                 <li class="navigation-item">
                     <a class="navigation-link-want" href="#">
-                        <span class="visually-hidden">
-                            Хочу сюда
+                        <span class="navigation-link-want">
+                            Хочу сюда!
                         </span>
                     </a>
                 </li>
@@ -60,49 +60,47 @@
             <h1 class="inner-header-title">
                 Гостиницы Седоны
             </h1>
-                <div class="breadcrumbs-wrapper">
-                <ul class="breadcrumbs">
-                    <li class="breadcrumbs-item">
-                        <a class="breadcrumbs-link" href="index.html">
-                            <img class="home" src="" alt="Главная"/>
-                        </a>
-                    </li>
-                    <li class="breadcrumbs-item">
-                        <a class="breadcrumbs-link">Гостиницы</a>
-                    </li>
-                </ul>
-                    <section class="catalog-filter">
-                        <h2 class="visually-hidden">
-                            Опции выбора гостиницы
-                        </h2>
-                </div>
-                            <form class="catalog-filter-form" action="https://echo.htmlacademy.ru/" method="get">
-                                <fieldset class="catalog-filter-group">
-                                    <legend class="catalog-filter-title">
-                                        Инфраструктура
-                                    </legend>
-                                        <ul class="catalog-filter-list">
-                                            <li class="catalog-filter-item">
-                                                <label class="control">
-                                                    <input class="control-input" type="checkbox" name="swimming-pool" checked>
-                                                    Бассейн
-                                                </label>
-                                            </li>
-                                            <li class="catalog-filter-item">
-                                                <label class="control">
-                                                    <input class="control-input" type="checkbox" name="parking" checked>
-                                                    Парковка
-                                                </label>
-                                            </li>
-                                            <li class="catalog-filter-item">
-                                                <label class="control">
-                                                    <input class="control-input" type="checkbox" name="wi-fi">
-                                                    Wi-Fi
-                                                </label>
-                                            </li>
-                                        </ul>
-                                </fieldset>
-                                <fieldset class="catalog-filter-group">
+            <ul class="breadcrumbs">
+                <li class="breadcrumbs-item">
+                    <a class="breadcrumbs-link" href="index.html">
+                        <img class="home" src="" alt="Главная"/>
+                    </a>
+                </li>
+                <li class="breadcrumbs-item">
+                    <a class="breadcrumbs-link">Гостиницы</a>
+                </li>
+            </ul>
+            <section class="catalog-filter">
+                <h2 class="visually-hidden">
+                    Опции выбора гостиницы
+                </h2>
+                    <form class="catalog-filter-form" action="https://echo.htmlacademy.ru/" method="get">
+                        <fieldset class="catalog-filter-group">
+                            <legend class="catalog-filter-title">
+                                Инфраструктура
+                            </legend>
+                                <ul class="catalog-filter-list">
+                                    <li class="catalog-filter-item">
+                                        <label class="control">
+                                            <input class="control-input" type="checkbox" name="swimming-pool" checked>
+                                            Бассейн
+                                        </label>
+                                    </li>
+                                    <li class="catalog-filter-item">
+                                        <label class="control">
+                                            <input class="control-input" type="checkbox" name="parking" checked>
+                                            Парковка
+                                        </label>
+                                    </li>
+                                    <li class="catalog-filter-item">
+                                        <label class="control">
+                                            <input class="control-input" type="checkbox" name="wi-fi">
+                                            Wi-Fi
+                                        </label>
+                                    </li>
+                                </ul>
+                        </fieldset>
+                        <fieldset class="catalog-filter-group">
                                     <legend class="catalog-filter-title">
                                         Тип жилья
                                     </legend>
@@ -126,27 +124,27 @@
                                                 </label>
                                             </li>
                                         </ul>
-                                </fieldset>
-                                <fieldset class="catalog-filter-group">
-                                    <legend class="catalog-filter-title">
-                                        Стоимость, ₽
-                                    </legend>
-                                        <label class="range-cost">
-                                            <input class="field" type="text" id="cost-min" name="cost-min" placeholder="от">
-                                            <input class="field" type="text" id="cost-max" name="cost-max" placeholder="до">
-                                            <input type="range" min="0" max="9000" id="cost">
-                                        </label>
-                                </fieldset>
-                                <div class="buttons-wrapper">
-                                    <button class="button-apply" type="submit" >
-                                        Применить
-                                    </button>
-                                    <button class="button-reset" type="reset">
-                                        Сбросить
-                                    </button>
-                                </div>
-                            </form>
-                    </section>
+                        </fieldset>
+                        <fieldset class="catalog-filter-group">
+                            <legend class="catalog-filter-title">
+                                Стоимость, ₽
+                            </legend>
+                                <label class="range-cost">
+                                    <input class="field" type="text" id="cost-min" name="cost-min" placeholder="от">
+                                    <input class="field" type="text" id="cost-max" name="cost-max" placeholder="до">
+                                    <input type="range" min="0" max="9000" id="cost">
+                                </label>
+                        </fieldset>
+                        <div class="buttons-wrapper">
+                            <button class="button-apply" type="submit" >
+                                Применить
+                            </button>
+                            <button class="button-reset" type="reset">
+                                Сбросить
+                            </button>
+                        </div>
+                    </form>
+            </section>
         </header>
         <section class="search-list">
                     <div class="search-list-options-wrapper">
@@ -158,12 +156,14 @@
                             <option value="expensive">Сначала дорогие</option>
                             <option value="popular">Сначала популярные</option>
                         </select>
-                        <a href="#" class="button button-light">
-                            <span class="visually-hidden">Показать карточки</span></a>
-                        <a href="#" class="button button-light">
-                            <span class="visually-hidden">Показать подробно</span></a>
-                        <a href="#" class="button button-light">
-                            <span class="visually-hidden">Показать списком</span></a>
+                        <div class="button-light-wrapper">
+                            <a href="#" class="button button-light">
+                                <span class="visually-hidden">Показать карточки</span></a>
+                            <a href="#" class="button button-light">
+                                <span class="visually-hidden">Показать подробно</span></a>
+                            <a href="#" class="button button-light">
+                                <span class="visually-hidden">Показать списком</span></a>
+                        </div>
                     </div>
             <div class="hotel-card-list-wrapper">
                 <ul class="hotel-card-list">
@@ -368,21 +368,21 @@
     </main>
     <footer class="page-footer">
         <ul class="footer-social-list">
-                <li class="footer-social-item">
+                <li class="footer-social-item-twitter">
                     <a class="button" href="#">
                         <span class="visually-hidden">
                             Twitter
                         </span>
                     </a>
                 </li>
-                <li class="footer-social-item">
+                <li class="footer-social-item-facebook">
                     <a class="button" href="#">
                         <span class="visually-hidden">
                             Facebook
                         </span>
                     </a>
                 </li>
-                <li class="footer-social-item">
+                <li class="footer-social-item-youtube">
                     <a class="button" href="#">
                         <span class="visually-hidden">
                             Youtube

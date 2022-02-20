@@ -62,21 +62,40 @@ body {
     width: 1060px;
     margin: 0 auto;
 }
+.navigation-logo {
+    display: block;
+    width: 139px;
+    height: 70px;
+}
 .logo-city {
     width: 139px;
     margin: 0 30px 0 0;
 }
 .navigation-list {
-    margin: 0 0 0 30px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
     padding: 0;
-    width: 345px;  
+    max-width: 450px;
+    list-style-type: none;  
 }
 .navigation-user {
-    width: 264px;
+    display: flex;
+    max-width: 380px;
+    height: 70px;
+    margin: 0;
+    padding: 0;
     margin-left: auto;
-    background-color: rgb(43, 11, 184);
+    align-items: center;
+}
+.navigation-user .navigation-link {
+    min-width: 16px;
+    min-height: 22px;
+    border: #000000 2px solid;
 }
 .navigation-link {
+    display: block;
+    padding: 20px 17px;
     font-family: "PT Sans", sans-serif;
     font-size: 20px;
     line-height: 26px;
@@ -86,6 +105,9 @@ body {
     text-decoration: none;
 }
 .navigation-link-want {
+    display: block;
+    width: 160px;
+    height: 37px;
     font-family: "PT Sans", sans-serif;
     font-size: 16px;
     line-height: 20px;
@@ -144,17 +166,17 @@ body {
     padding: 0;
     list-style: none;
 }
-.advantage-first-wrapper {
+.advantage-real-city-wrapper {
     display: flex;
     justify-content: space-between;
     background-color: #83B3D3;
 }
-.advantage-second-wrapper {
+.advantage-devilsbridge-wrapper {
     display: flex;
     justify-content: space-between;
     background-color: #83B3D3;
 }
-.advantages-title-1-2 {
+.advantages-title-realcity-devilsbridge {
     width: 400px;
     margin: 0 auto;
     padding: 97px 0px 30px 0px;
@@ -165,7 +187,7 @@ body {
     color: #ffffff;
     text-transform: uppercase;
 }   
-.adventages-discription-number-1-2 {
+.adventages-discription-number-realcity-devilsbridge {
     width: 250px;
     margin: 0 auto;
     padding: 0px 0px 30px 0px;
@@ -176,7 +198,7 @@ body {
     color: #ffffff;
     text-transform: uppercase;
 }
-.adventages-discription-1-2 {
+.adventages-discription-realcity-devilsbridge {
     width: 220px;
     margin: 0 auto;
     font-weight: 400;
@@ -199,15 +221,15 @@ body {
 .real-rock-photo {
     vertical-align: middle;
 }
-.advantages-item-345 {
+.advantages-item-area-road-tourist {
     display: flex;
     justify-content: space-between;
 }
-.real-city-adventure-item-13 {
+.real-city-adventure-item-housingsouvenirs {
     width: 400px;
     background-color: #83B3D31F;
 }
-.real-city-adventure-item-2 {
+.real-city-adventure-item-food {
     width: 400px;
 }
 .real-city-adventure-item-title {
@@ -229,11 +251,11 @@ body {
     line-height: 21px;
     text-align: center;
 }
-.advantages-item-35 {
+.advantages-item-area-tourist {
     width: 400px;
     background-color: #83B3D31F;
 }
-.advantages-item-4 {
+.advantages-item-road {
     width: 400px;
     background-color: #83B3D333;
 }
@@ -345,17 +367,25 @@ body {
 .field-newsletter{
     display: block;
     width: 600px;
+    height: 60px;
+    border: 0;
+    padding: 0;
+    padding-left: 22px;
     appearance: none;
     font-weight: 400;
     font-size: 18px;
     line-height: 26px;
 }
 .newsletter-button {
+    display: block;
     width: 200px;
+    height: 60px;
     background-color:#83B3D3;
+    border: 0;
 }
 .button-newsletter {
     width: 200px;
+    height: 60px;
     background-color: #83B3D3;
     font-weight: 700;
     font-size: 20px;
@@ -366,13 +396,36 @@ body {
 .page-footer {
     display: flex;
     width: 1200px;
+    height: 120px;
     margin: 0 auto;
 }
 .footer-social-list {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    min-width: 150px;
+    align-items: center;
     margin: 0 61px 0 72px;
     padding: 0;
     width: 107px;
-    background-color: chartreuse;  
+    list-style-type: none;  
+}
+.footer-social-item-twitter {
+    width: 18px;
+    height: 15px;
+    border: #000000 2px solid;
+}
+.footer-social-item-facebook {
+    width: 10px;
+    height: 18px;
+    margin-left: 29px;
+    margin-right: 30px;
+    border: #000000 2px solid;
+}
+.footer-social-item-youtube {
+    width: 20px;
+    height: 16px;
+    border: #000000 2px solid;
 }
 .contacts-phone {
     display: block;
@@ -394,6 +447,7 @@ body {
 }
 .inner-header {
     width: 1200px;
+    height: 408px;
     margin: 0 auto;
     background-image: url(../images/catalog-background.jpg);
     background-size: 100% auto;
@@ -409,16 +463,22 @@ body {
     font-size: 60px;
     line-height: 78px;
 }
-.breadcrumbs-wrapper {
-    margin: 0 left;
-    padding: 0 0 45px 77px;
-}
 .breadcrumbs{
-    width: 111px;
-    padding: 0 0;
+    display: flex;
+    width: 200px;
+    margin: 0;
+    padding: 0;
+    margin-left: 73px;
+    margin-top: 5px;
+    margin-bottom: 45px;
+    list-style-type: none;
     font-weight: 400;
     font-size: 16px;
     line-height: 21px;
+}
+.breadcrumbs-link {
+    display: block;
+    padding-right: 26px;
 }
 .catalog-filter-form {
     display: flex;
@@ -446,15 +506,25 @@ body {
     flex-direction: column;
 }
 .button-apply {
+    display: block;
+    width: 160px;
+    height: 48px;
+    border: 0;
     font-weight: 700;
     font-size: 16px;
     line-height: 21px;
     text-align: center;
     text-transform: uppercase;
+    color: #ffffff;
     background-color: #83B3D3;
 }
 .button-reset {
+    display: block;
+    width: 160px;
+    height: 48px;
+    border: 0;
     text-align: center;
+    border: 0;
 }
 .search-list {
     width: 1200px;
@@ -467,7 +537,7 @@ body {
 }
 .search-list-title {
     display: flex;
-    width: 338px;
+    width: 360px;
     height: 39px;
     font-weight: 700;
     font-size: 30px;
@@ -477,10 +547,27 @@ body {
 .select-control {
     display: block;
     width: 287px;
+    height: 48px;
+    align-self: center;
+    margin-left: 192px;
+    margin-right: 81px;
+    padding-left: 19px;
     font-weight: 400;
     font-size: 18px;
     line-height: 23px;
     color: #333333;
+}
+.button-light-wrapper {
+    display: flex;
+    width: 160px;
+    align-items: center;
+}
+.button-light {
+    display: block;
+    width: 48px;
+    height: 48px;
+    margin-right: 8px;
+    border: #000000 2px solid;
 }
 .hotel-card-list-wrapper {
     display: block;
@@ -532,6 +619,7 @@ body {
     display: block;
     width: 133px;
     margin: 0 26px 26px 20px;
+    border: 0;
     font-weight: 700;
     font-size: 16px;
     line-height: 21px;
@@ -545,6 +633,7 @@ body {
     display: block;
     width: 141px;
     margin: 0 20px 25px 0;
+    border: 0;
     font-weight: 700;
     font-size: 16px;
     line-height: 21px;
@@ -575,6 +664,7 @@ body {
     width: 620px;
     height: 60px;
     margin: 64px auto 60px auto;
+    border: 0;
     font-weight: 700;
     font-size: 20px;
     line-height: 26px;
@@ -601,6 +691,7 @@ body {
 }
 .pagination-item-current {
     display: block;
+    box-sizing: border-box;
     width: 55px;
     height: 55px;
     background-color: #ffffff;
@@ -642,6 +733,7 @@ body {
     width: 160px;
     height: 48px;
     margin: auto 0 auto 0;
+    padding: 17px;
 }
 .newsletter-catalog {
     color:#000000;

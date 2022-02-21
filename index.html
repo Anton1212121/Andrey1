@@ -10,12 +10,12 @@
 <body>
     <header class="page-header">
         <nav class="navigation">
-		    <a class="navigation-logo" href="#">
+		    <a class="navigation-logo">
 			    <img class="logo-city" src="images/logo-sedona.svg" width="139" height="70" alt="Логотип сайта Седона"/>
 		    </a>
             <ul class="navigation-list">
                 <li class="navigation-item">
-                    <a class="navigation-link navigation-link-current" href="#">
+                    <a class="navigation-link navigation-link-current">
                         Главная
                     </a>
                 </li>
@@ -47,16 +47,16 @@
                 </li>
                 <li class="navigation-item">
                     <a class="navigation-link-want" href="#">
-                        <span class="visually-hidden">
-                            Хочу сюда
+                        <span class="navigation-link-want">
+                            Хочу сюда!
                         </span>
                     </a>
                 </li>
             </ul>
         </nav>
     </header>
-    <main class="main-index">
-        <section class="introduce">
+    <main class="main-container main-index">
+            <section class="introduce">
             <h1 class="visually-hidden">
                 Добро пожаловать в Великолепную Седону
             </h1>
@@ -66,26 +66,32 @@
                 <p class="introduce-tagline">
                     Седона — небольшой городок в Аризоне, заслуживающий большего!
                 </p>
-        </section>        
-        <section class="advantages">
+            </section>        
+            <section class="advantages">
             <h2 class="advantages-main-title">
                 Рассмотрим 5 причин, по которым Седона круче, чем Гранд-Каньон!
             </h2>
             <ul class='adventages-list'>
                 <li class='adventages-item'>
                     <div class="advantages-card">
-                        <h3 class="advantages-title-1-2">
-                            Настоящий городок
-                        </h3>
-                            <p class="adventages-discription-number-1-2">
-                                — №1 —
-                            </p>
-                            <p class="adventages-discription-1-2">
-                                Седона — не аттракцион для туристов, там течёт своя жизнь
-                            </p>
-                            <img class="real-city-photo" src="images/advantage-1.jpg" width="800" height="384" alt="Фотография города Седона"/>
-                                <ul class="real-city-adventure-list">
-                                    <li class=real-city-adventure-item>
+                        <div class="advantage-real-city-wrapper">
+                            <div class="advantave-real-city-card">
+                                <h3 class="advantages-title-realcity-devilsbridge">
+                                    Настоящий городок
+                                </h3>
+                                    <p class="adventages-discription-number-realcity-devilsbridge">
+                                        — №1 —
+                                    </p>
+                                    <p class="adventages-discription-realcity-devilsbridge">
+                                        Седона — не аттракцион для туристов, там течёт своя жизнь
+                                    </p>
+                            </div>
+                            <div class="advantave-first-card">
+                                    <img class="real-city-photo" src="images/advantage-1.jpg" width="800" height="384" alt="Фотография города Седона"/>
+                            </div>
+                        </div>       
+                            <ul class="real-city-adventure-list">
+                                    <li class="real-city-adventure-item-housingsouvenirs">
                                         <p class="real-city-adventure-item-title">
                                         Жильё
                                         </p>
@@ -93,7 +99,7 @@
                                             Рекомендуем пожить в настоящем мотеле, всё как в кино!
                                         </p>
                                     </li>
-                                    <li class=real-city-adventure-item>
+                                    <li class="real-city-adventure-item-food">
                                         <p class="real-city-adventure-item-title">
                                         Еда
                                         </p>
@@ -101,7 +107,7 @@
                                             Всегда заказывайте топовый фирменный бургер, вы не разочаруетесь!
                                         </p>
                                     </li>
-                                    <li class=real-city-adventure-item>
+                                    <li class="real-city-adventure-item-housingsouvenirs">
                                         <p class="real-city-adventure-item-title">
                                         Сувениры
                                         </p>
@@ -114,19 +120,26 @@
                 </li>
                 <li class='adventages-item'>
                     <div class="advantages-card">
-                        <img class="real-rock-photo" src="images/advantage-2.jpg" width="800" height="384" alt="Фотография скал Седоны"/>
-                            <h3 class="advantages-title-1-2">
-                                Там есть мост дьявола
-                            </h3>
-                            <p class="adventages-discription-number-1-2">
-                                — №2 —
-                            </p>
-                            <p class="adventages-discription-1-2">
-                                Да, по нему можно пройти! Если вы осмелитесь, разумеется
-                            </p>
+                        <div class="advantage-devilsbridge-wrapper">
+                            <div class="advantave-devilsbridge-card">
+                                <img class="real-rock-photo" src="images/advantage-2.jpg" width="800" height="384" alt="Фотография скал Седоны"/>
+                            </div>
+                            <div class="advantave-devilsbridge-card">
+                                <h3 class="advantages-title-realcity-devilsbridge">
+                                    Там есть мост дьявола
+                                </h3>
+                                <p class="adventages-discription-number-realcity-devilsbridge">
+                                    — №2 —
+                                </p>
+                                <p class="adventages-discription-realcity-devilsbridge">
+                                    Да, по нему можно пройти! Если вы осмелитесь, разумеется
+                                </p>
+                            </div>
+                        </div>
                     </div>
                 </li>
-                <li class='adventages-item'>
+                <div class="advantages-item-area-road-tourist">
+                <li class="advantages-item-area-tourist">
                     <div class="advantages-card">
                         <h3 class="advantages-title">
                             Небольшая площадь
@@ -139,7 +152,7 @@
                         </p>
                     </div>
                 </li>
-                <li class="advantages-item">
+                <li class="advantages-item-road">
                     <div class="advantages-card">
                         <h3 class="advantages-title">
                             Красивая дорога
@@ -152,7 +165,7 @@
                         </p>
                     </div>
                 </li>
-                <li class='advantages-item'>
+                <li class="advantages-item-area-tourist">
                     <div class="advantages-card">
                         <h3 class="advantages-title">
                             Мало туристов
@@ -165,9 +178,10 @@
                         </p>
                     </div>
                 </li>
+                </div>
             </ul>
-        </section>
-        <div class="find-hotel">
+            </section>
+            <div class="find-hotel-wrapper">
             <h2 class="visually-hidden">Поиск гостиницы</h2>
             <p class="interest">
                 Заинтересовались?
@@ -175,61 +189,69 @@
             <p class="interest-discription">
                 Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в Седоне
             </p>
-            <a class="button" href="catalog.html">
-                ПОИСК ГОСТИНИЦЫ В СЕДОНЕ
-            </a>
-        </div>
-        <section>
-            <h2 class="page-footer-title">
-                Подпишитесь на рассылку
-            </h2>
-                <p class="interest-discription">
-                    Только полезная информация и никакого спама, честное бойскаутское!
+                <p class="button-search-inscription">
+                    <a class="button-search" href="catalog.html">
+                        ПОИСК ГОСТИНИЦЫ В СЕДОНЕ
+                    </a>
                 </p>
-                <form class="newsletter-form" action="https://echo.htmlacademy.ru/" method="post">
-                    <label class="visually-hidden">
-                        Ваш e-mail
-                    </label>
-                    <input class="field" type="email" id="newsletter-email" name="newsletter-email" placeholder="Ваш e-mail">
-                    <button class="button newsletter-button" type="submit">
-                        <span class="button">
-                            ПОДПИСАТЬСЯ
-                        </span>
-                    </button>
-                </form>
-        </section>
+            </div>
+            <section class="newsletter">
+            <div class="newsletter-wrapper">
+                <h2 class="page-newsletter-title">
+                    Подпишитесь на рассылку
+                </h2>
+                    <p class="newsletter-discription">
+                        Только полезная информация и никакого спама, честное бойскаутское!
+                    </p>
+                    <form class="newsletter-form" action="https://echo.htmlacademy.ru/" method="post">   
+                        <label class="visually-hidden" for="newsletter-email">
+                            Ваш e-mail
+                        </label>
+                            <div class="newsletter-form-wrapper">
+                            <input class="field-newsletter" type="email" id="newsletter-email" name="newsletter-email" placeholder="Ваш e-mail">
+                            <button class="button newsletter-button" type="submit">
+                                <b class="button-newsletter">
+                                    ПОДПИСАТЬСЯ
+                                </b>
+                            </button>
+                            </div>
+                    </form>
+            </div>
+            </section>
     </main>
     <footer class="page-footer">
-            <ul class="footer-social-list">
-                <li class="footer-social-item">
+        <ul class="footer-social-list">
+                <li class="footer-social-item-twitter">
                     <a class="button" href="#">
                         <span class="visually-hidden">
                             Twitter
                         </span>
                     </a>
                 </li>
-                <li class="footer-social-item">
+                <li class="footer-social-item-facebook">
                     <a class="button" href="#">
                         <span class="visually-hidden">
                             Facebook
                         </span>
                     </a>
                 </li>
-                <li class="footer-social-item">
+                <li class="footer-social-item-youtube">
                     <a class="button" href="#">
                         <span class="visually-hidden">
                             Youtube
                         </span>
                     </a>
                 </li>
-            </ul>
-            <a class="contacts-phone" href="tel:+781281212">
-                +7 (812) 812-12-12
-            </a>
-            <p class="visually-hidden">
+        </ul>
+        <p class ="contacts-phone">
+                <a class="contacts-phone-link" href="tel:+781281212">
+                    +7 (812) 812-12-12
+                </a>
+        </p>
+        <p class="visually-hidden">
                 Разаработано в HTML Academy
-                <img class="about-img" src="images/logo-htmlacademy.svg" width="114,9" height="32,9" alt=".html academy"/>
-            </p>
+        </p>
+            <img class="about-img" src="images/logo-htmlacademy.svg" width="115" height="33" alt=".html academy"/>
     </footer>
 </body>
 </html>
